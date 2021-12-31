@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+* body {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+* a:link {
+  text-decoration: none;
+  color: white;
+}
+
+* a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+* .header {
+  text-align: center;
+  margin: 9vh 3vw;
+  font-size: 42px;
+}
+
+* .navbar {
+  padding: 1vh 1vw;
+  width: 98vw;
+  height: 5vh;
+  background-color: #683f19;
+}
+
+* .navbar .nav-list {
+  padding: 1vh 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+* .description {
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+* .main-article {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+* .hobby {
+  width: 20vw;
+  height: 20vh;
+  background-color: black;
+  margin: 4vh 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+}
+
+* .hobby .hobby-text {
+  font-size: 40px;
+  color: #683f19;
+}
+
+* .reading {
+  background-image: url(/assets/reading.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+}
+
+* .games {
+  background-image: url(/assets/games.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+}
+
+* .music {
+  background-image: url(/assets/music.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+}
+
+* .math {
+  background-image: url(/assets/math.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+}
+
+* .spirituality {
+  background-image: url(/assets/spirituality.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+}
+
+* .writing {
+  background-image: url(/assets/writing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+}
+
+* .reading:hover, * .games:hover, * .music:hover, * .math:hover, * .spirituality:hover, * .writing:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,100 @@
+@mixin imageBlur {
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+
+    body {
+        background-color: black;
+        color: rgba(255,255,255, .7);
+        text-decoration: none;
+    }
+    a:link {
+        text-decoration: none;
+        color: white;
+    }
+    a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    .header {
+        text-align: center;
+        margin: 9vh 3vw;
+        font-size: 42px;
+    }
+    .navbar {
+        padding: 1vh 1vw;
+        width: 98vw;
+        height: 5vh;
+        background-color: rgb(104, 63, 25);
+
+        .nav-list {
+            padding: 1vh 1vw;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            text-decoration: none;
+        }
+        
+    }
+    .description {
+        text-align: center;
+        margin-bottom: 3vh;;
+    }
+    .main-article {
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hobby {
+        width: 20vw;
+        height: 20vh;
+        background-color: black;
+        margin: 4vh 10vh;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+
+        .hobby-text {
+            font-size: 40px;
+            color: rgb(104, 63, 25)
+        }
+    }
+    
+    .reading {
+        background-image: url(/assets/reading.jpg);
+        @include imageBlur();
+    }
+    .games {
+        background-image: url(/assets/games.jpg);
+        @include imageBlur();
+    }
+    .music {
+        background-image: url(/assets/music.jpg);
+        @include imageBlur();
+    }
+    .math {
+        background-image: url(/assets/math.jpg);
+        @include imageBlur();
+    }
+    .spirituality {
+        background-image: url(/assets/spirituality.jpg);
+        @include imageBlur();
+    }
+    .writing {
+        background-image: url(/assets/writing.jpg);
+        @include imageBlur();;
+    }
+    .reading:hover, .games:hover, .music:hover, .math:hover, .spirituality:hover, .writing:hover {
+        filter: none;
+    }
+    
+    
+}
+
